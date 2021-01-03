@@ -6,13 +6,14 @@
                \/             \/      \/     \/     \/      \/       
                         C O M P L E T E  M A N D I A N T                    
                              O F F E N S I V E   V M                        
-                                   Version 1.1                                 
+                                   Version 2020.2
+                                commandovm@fireeye.com                                 
                _____________________________________________________          
 
-                                   Developed by                                
-                                   Jake Barteaux                               
+                                    Created by                                
+                              Jake Barteaux @day1player                              
                                  Proactive Services  
-                                  Blaine Stancill                          
+                          Blaine Stancill @MalwareMechanic                          
                                     Nhan Huynh   
                      FireEye Labs Advanced Reverse Engineering                            
 ______________________________________________________________________________ 
@@ -25,7 +26,8 @@ back if you have issues.
 
 This image has the Chocolatey package manager installed, and you can continue to
 customize this machine with any package from the Chocolatey repository - 
-https://chocolatey.org/packages.
+https://chocolatey.org/packages or from our repo - 
+https://github.com/fireeye/commando-vm/blob/master/packages.csv.
 
 Try this:
   choco install github 
@@ -42,24 +44,8 @@ Please enjoy the VM and submit any feedback or feature requests as github
 issues here:
 https://github.com/fireeye/commando-vm
 
-Changelog:
-1.1 - April 30 2019
-- Added AD-Control-Paths https://github.com/ANSSI-FR/AD-control-paths/releases
-- Added DefenderCheck https://github.com/matterpreter/DefenderCheck
-- Added dnsrecon https://github.com/darkoperator/dnsrecon
-- Added EvilClippy https://github.com/outflanknl/EvilClippy
-- Added NtdsAudit https://github.com/Dionach/NtdsAudit
-- Added SharpExec https://github.com/anthemtotheego/SharpExec
-- Added Subdomain-Bruteforce https://github.com/visualbasic6/subdomain-bruteforce
-- Fixed issue #18 with PATH 
-- Added Commando Logos with transparent backgrounds to $Home\Pictures
-- Pinned Firefox to Taskbar
-- Fixed misspellings in (this) Readme #42/#43
-- Added Ruby and Ruby Devkit #1
-- Updated Rubeus package to current version (1.4.2) #31
+For support or questions please join the #commando-vm channel in the BloodHoundGang
+Slack or email the creators at commandovm@fireeye.com
 
-1.0.2 - April 10 2019
-- Added missing 'seclists.fireeye' package to packages.json
-
-1.0.1 - March 31 2019
-- Used https instead of http to install boxstarter
+Keep an eye on our Changelog for new tools:
+https://github.com/fireeye/commando-vm/blob/master/changelog.md
